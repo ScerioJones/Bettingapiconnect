@@ -4,6 +4,6 @@ import requests
 import json
 
 response = requests.get("https://api.the-odds-api.com/v4/sports/upcoming/odds/?regions=us&markets=h2h&oddsFormat=american&apiKey=fa59214500c3ee27dd499bf436405160")
-jsonResponse = json.loads(response.txt)
+jsonResponse = json.loads(response)
 print(jsonResponse)
 
