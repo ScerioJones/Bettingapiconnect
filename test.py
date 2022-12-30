@@ -7,3 +7,4 @@ response = requests.get("https://api.the-odds-api.com/v4/sports/upcoming/odds/?r
 jsonResponse = response.json()
 print(jsonResponse)
 print(jsonResponse['sport_key'])
+print('test')
